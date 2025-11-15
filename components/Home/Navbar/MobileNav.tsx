@@ -1,11 +1,10 @@
 
 import { navlinks } from "@/constant/Constent";
 import Link from "next/link";
-import { type } from "os";
 import { CgClose } from "react-icons/cg";
 
 type props = {
-  showNav:Boolean;
+  showNav:boolean;
   hideNav:() => void;
 }
 
