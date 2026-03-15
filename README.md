@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 Wanderlust: Modern Travel & Exploration Platform
 
-## Getting Started
+A premium, full-stack travel discovery application built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**. This project features a high-performance, mobile-first design aimed at providing users with a seamless experience for discovering destinations, booking adventures, and planning itineraries.
 
-First, run the development server:
+## 🚀 Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* **Dynamic Destination Discovery:** Real-time search and filtering for global travel destinations.
+* **Responsive Booking Engine:** A smooth, multi-step booking flow optimized for all screen sizes.
+* **Performance Optimized:** Leverages Next.js **Server Components (RSC)** and **Static Site Generation (SSG)** for near-instant page loads.
+* **Interactive UI:** Smooth transitions and micro-interactions powered by **Framer Motion**.
+* **Modern Navigation:** Implements the Next.js **App Router** for optimized nested layouts and parallel routing.
+* **SEO Ready:** Optimized metadata and high-fidelity images using the `next/image` component.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Framework:** Next.js 14 (App Router)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS (Shadcn/UI components)
+* **State Management:** React Context API / Zustand
+* **Icons & Assets:** Lucide React / Cloudinary
+* **Animation:** Framer Motion
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Project Architecture
 
-## Learn More
+```text
+travel-web/
+├── app/                # Next.js 14 App Router (Pages, Layouts, API)
+├── components/         # Atomic design (UI, Common, Navigation)
+├── constants/          # Reusable data (Destinations, Links, etc.)
+├── public/             # Optimized assets (Images, SVGs)
+├── types/              # TypeScript interfaces and types
+└── utils/              # Helper functions and business logic
 
-To learn more about Next.js, take a look at the following resources:
+⚙️ Local Development
+To run this travel platform locally and explore the code:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 1. Clone the repository
+$ git clone [https://github.com/ShahzaibJatala/travel-web.git](https://github.com/ShahzaibJatala/travel-web.git)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 2. Install dependencies
+$ npm install
 
-## Deploy on Vercel
+# 3. Configure Environment Variables
+# Create a .env.local file for any API keys (e.g., Maps, Image storage)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 4. Start the development server
+$ npm run dev
